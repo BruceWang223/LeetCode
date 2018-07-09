@@ -20,7 +20,8 @@ public class LeetCode15 {
 //  [-1, 0, 1],
 //  [-1, -1, 2]
 //]
-
+    //time O(n^2)
+    //space O(n)
     public static List<List<Integer>>threeSum(int[] nums){
         if(nums == null || nums.length < 3){
             return null;
